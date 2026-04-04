@@ -72,7 +72,7 @@ st.subheader("Risk by Hour")
 
 risk_by_hour = filtered_df.groupby("hour")["high_severity"].mean()
 
-fig, ax = plt.subplots(figsize=(6, 2))
+fig, ax = plt.subplots(figsize=(10, 4))
 ax.plot(risk_by_hour.index, risk_by_hour.values)
 ax.set_xlabel("Hour of Day")
 ax.set_ylabel("High Severity Risk")

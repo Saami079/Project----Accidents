@@ -1,5 +1,10 @@
 # Traffic Accident Severity Analysis & Risk-Based Scenario Detection (2019–2023)
 
+## Dashboard
+[Open the Streamlit Dashboard](https://saami079-project----accidents-dashboardapp-ne0faj.streamlit.app/)
+
+---
+
 ## Overview
 
 This project analyzes traffic accident data to identify **under what conditions accidents become severe**.
@@ -146,6 +151,8 @@ Baseline comparison highlights that some conditions increase severity beyond nor
 
 ![Scenario Insights](outputs/figures/page4.png)
 
+Dashboard uses a sampled dataset for deployment efficiency while preserving analytical patterns.
+
 ---
 
 ## Tools & Technologies
@@ -197,6 +204,8 @@ Weather categorization is simplified into grouped labels.
 Modeling is limited to interpretable baseline approach.
 
 Results represent statistical relationships, not causal inference.
+
+---
 
 ## Project Outcome
 
