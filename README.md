@@ -219,3 +219,7 @@ Interpretable modeling
 Dashboard-based insight communication
 
 It reflects a shift from descriptive analysis to decision-oriented risk evaluation, emphasizing how conditions combine to influence accident severity.
+
+## Author
+
+**Saami Anware** 
