@@ -3,7 +3,7 @@
 ## Dashboard
 [Open the Streamlit Dashboard](https://saami079-project----accidents-dashboardapp-ne0faj.streamlit.app/)
 
----
+
 
 ## Overview
 
@@ -15,7 +15,6 @@ Using conditional probability, interaction analysis, and scenario evaluation, th
 
 The workflow integrates Python-based analytical modeling with a Streamlit dashboard to deliver both analytical depth and interactive exploration.
 
----
 
 ## Objectives
 
@@ -33,7 +32,6 @@ Validate patterns using interpretable modeling
 
 Develop an interactive dashboard for insight exploration
 
----
 
 ## Methodology
 
@@ -47,7 +45,6 @@ Missing values handled for visibility and weather conditions.
 
 Sample dataset created for efficient analysis.
 
----
 
 ### 2. Feature Engineering
 
@@ -66,7 +63,7 @@ Binary target variable:
 - High severity (Severity 3–4)
 - Low severity (Severity 1–2)
 
----
+
 
 ### 3. Risk-Based Analysis
 
@@ -79,7 +76,6 @@ Conditional probability computed across:
 
 Deviation from baseline used to identify high-risk conditions.
 
----
 
 ### 4. Interaction Analysis
 
@@ -90,7 +86,6 @@ Combined condition analysis performed using:
 
 Interaction effects used to detect **risk amplification patterns**.
 
----
 
 ### 5. Scenario Identification
 
@@ -100,7 +95,6 @@ Top combinations extracted to identify **worst-case conditions**.
 
 Scenario-level insights used to move beyond single-variable analysis.
 
----
 
 ### 6. Modeling
 
@@ -109,9 +103,8 @@ Logistic regression model applied for interpretability.
 Feature influence evaluated using model coefficients.
 
 Focus on understanding drivers of severity rather than prediction accuracy.
-
----
-
+  
+  
 ### 7. Visualization Layer
 
 Streamlit dashboard presents:
@@ -123,7 +116,6 @@ Streamlit dashboard presents:
 - High-risk scenarios
 - Key interpretation insights
 
----
 
 ## Key Insights
 
@@ -139,7 +131,7 @@ Risk variation across hours indicates that severity is higher during late-night 
 
 Baseline comparison highlights that some conditions increase severity beyond normal levels, while others reduce it.
 
----
+
 
 ### Dashboard Visualizations
 
@@ -153,7 +145,6 @@ Baseline comparison highlights that some conditions increase severity beyond nor
 
 Dashboard uses a sampled dataset for deployment efficiency while preserving analytical patterns.
 
----
 
 ## Tools & Technologies
 
@@ -164,7 +155,6 @@ Streamlit
 Jupyter Notebook (VS Code)  
 GitHub  
 
----
 
 ## Repository Structure
 
@@ -191,7 +181,6 @@ Project - Accidents/
 ├── requirements.txt
 └── README.md
 ```
----
 
 ## Limitations
 
@@ -205,7 +194,6 @@ Modeling is limited to interpretable baseline approach.
 
 Results represent statistical relationships, not causal inference.
 
----
 
 ## Project Outcome
 
